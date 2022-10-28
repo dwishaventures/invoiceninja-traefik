@@ -1,0 +1,43 @@
+# IN application vars
+APP_NAME="Invoice Platform"
+APP_URL=https://billing.tdslab.in
+APP_KEY=base64:KUNEguifnbcKBvU/QxECZrX+l3hLK31vqrleDLOIBMo=
+APP_DEBUG=false
+REQUIRE_HTTPS=true
+PHANTOMJS_PDF_GENERATION=false
+PDF_GENERATOR=snappdf
+QUEUE_CONNECTION=database
+TRUSTED_PROXIES='172.23.0.0/16,172.19.0.0/16,172.17.0.0/16'
+# DB connection
+DB_HOST=db
+DB_PORT=3306
+DB_DATABASE=ninja
+DB_USERNAME=ninja
+DB_PASSWORD=ninja
+
+# Create initial user
+# Default to these values if empty
+# IN_USER_EMAIL=admin@example.com
+# IN_PASSWORD=changeme!
+IN_USER_EMAIL=admin@tdslab.in
+IN_PASSWORD=adminPwd
+
+# Mail options
+MAIL_MAILER=log
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS='user@example.com'
+MAIL_FROM_NAME='Self Hosted User'
+
+# MySQL
+MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
+MYSQL_USER=ninja
+MYSQL_PASSWORD=ninja
+MYSQL_DATABASE=ninja
+
+# V4 env vars
+# DB_STRICT=false
+# APP_CIPHER=AES-256-CBC
